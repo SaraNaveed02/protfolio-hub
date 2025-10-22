@@ -4,7 +4,7 @@
   position: absolute;
   left: 20%;
   top: auto;
-  width: fit-content;
+  width: 80%;
   height: 100vh;
   z-index: 10;
 }
@@ -45,7 +45,6 @@
     height: 100vh;
     width: 60%;
     z-index: 10;
-    left: 10%;
   }
 
   .hero {
@@ -62,7 +61,7 @@
     width: 70%;
   }
 }
-@media (max-width: 480px) {
+@media (max-width:700px) {
    .container {
     position: relative; 
     height: auto;       
@@ -83,32 +82,30 @@
 
   .hero {
     position: relative;
-    top: 100vh;
+    top:40vh;
     padding: 20px;
-    top: 80vh;
+    
     left: 0%;
 
   }
   .hero h1 {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     margin-top: 5rem;
   }
 
   .hero p {
-    font-size: 0.8rem;
+    font-size: 0.7rem;
     width: 80%;
   }
-  .left-side {
-    width: 250px;
-  }
+   
 }
 
 @media (max-width: 380px) {
   .hero {
     line-height: normal;
     position: relative;
-    top: 60vh;
-    width: 65%;
+    top: 40vh;
+    width: 70%;
     left: 0%;
    
   }

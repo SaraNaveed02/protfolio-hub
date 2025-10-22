@@ -237,10 +237,10 @@
     transition: all 0.4s ease;
   }
 }
-@media (max-width: 480px) {
+@media (max-width:700px) {
   .projects-containers {
     position: relative;
-    top: 50vh;
+    top: 0%;
     left: 0%;
     width: auto;
   }
@@ -254,10 +254,10 @@
     left: 0%;
     top: 0;
   }
- .project-section {
+  .project-section {
     position: relative;
-    left: 15%;
-    top: 20vh;
+    left: 5%;
+    top: 10vh;
   }
   .show-more-btn {
     width: 100px;
@@ -267,7 +267,7 @@
   .more-btn {
     position: absolute;
     left: 30%;
-    top: 68%;
+    top: 50%;
   }
   .head-tag {
     position: relative;
@@ -295,9 +295,9 @@
 @media (max-width: 380px) {
   .projects-containers {
     position: relative;
-    top: 3vh;
     margin-bottom: 0;
     bottom: 0;
+    top: 10%;
   }
   .project-container {
     display: flex;
@@ -307,23 +307,24 @@
     gap: 20px;
     position: relative;
     left: 15%;
-    top:0%;
+    top: 0%;
   }
-  .project-section{
+  .project-section {
     position: relative;
-    top: 30vh;
+    top: 10vh;
   }
   .show-more-btn {
     width: 100px;
     font-size: 0.8rem;
     padding: 5px 10px;
-      margin-bottom: 0%;
-
+    margin-bottom: 0%;
+    position: relative;
+    top: 20vh;
   }
   .more-btn {
     position: relative;
     left: 20%;
-    top:0%;
+    top: 0%;
     bottom: 0%;
     margin-bottom: 0;
   }
@@ -350,18 +351,16 @@
     text-transform: uppercase;
   }
 }
-@media (max-width: 340px){
-   .show-more-btn {
+@media (max-width: 340px) {
+  .show-more-btn {
     width: 100px;
     font-size: 0.8rem;
     padding: 5px 10px;
-      margin-bottom: 0%;
-
+    margin-bottom: 0%;
   }
   .more-btn {
-    position:absolute;
+    position: absolute;
     left: 20%;
- top: 140vh
+    top: 95vh;
   }
-
 }

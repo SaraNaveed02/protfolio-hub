@@ -69,7 +69,7 @@
   }
 }
 
-@media (max-width: 480px) {
+@media (max-width: 700px) {
   .About-contianers {
     position: relative;
     top: 0%;
@@ -84,7 +84,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     height: fit-content;
-    top: 80vh;
+    top: 20vh;
   }
   .about-head {
     width: 100%;
@@ -101,7 +101,7 @@
 @media (max-width: 380px) {
   .About-contianers {
     position: relative;
-    top:50vh;
+    top:25vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

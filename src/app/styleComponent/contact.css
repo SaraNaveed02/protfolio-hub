@@ -98,10 +98,10 @@
     margin: 10px;
   }
 }
-@media (max-width: 480px) {
+@media (max-width:700px) {
   .contact-containers {
     position: relative;
-    top: 290vh;
+    top:200vh;
     left: 0%;
     width: 700px;
   }
@@ -139,7 +139,7 @@
 @media (max-width: 380px) {
   .contact-containers {
     position: relative;
-    top: 190vh;
+    top: 140vh;
     left: 0%;
     width: 400px;
   }

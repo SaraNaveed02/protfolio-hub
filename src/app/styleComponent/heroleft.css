@@ -104,17 +104,16 @@
     font-size: 0.7rem;
   }
 }
-@media (max-width: 480px) {
+@media (max-width:700px) {
   .container {
     position: absolute;
     top: 10%;
     padding: 15px;
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
+    justify-content: center;
+    align-items: center;
     gap: 10px;
-    left: 8%;
     height: fit-content;
   }
   .main-image {
