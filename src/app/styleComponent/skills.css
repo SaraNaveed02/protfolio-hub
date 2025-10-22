@@ -1,0 +1,306 @@
+.skills-section {
+  position: relative;
+  left: 35%;
+  color: white;
+  top: 100vh;
+  height: 100%;
+  width: 70%;
+}
+.skills-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  text-align: center;
+
+}
+.big-cricle {
+  width: 300px;
+  height: 300px;
+  padding: 20px;
+  border: 8px solid transparent;
+  border-radius: 50%;
+  position: relative;
+  display: block;
+  justify-content: center;
+  align-items: center;
+  text-transform: uppercase;
+
+  background: linear-gradient(black) padding-box,
+    linear-gradient(
+        135deg,
+        rgb(2, 2, 105),
+        black,
+        rgb(2, 2, 105),
+        black,
+        rgb(2, 2, 105),
+        black,
+        rgb(2, 2, 105),
+        black,
+        rgb(2, 2, 105),
+        black,
+        rgb(2, 2, 105),
+        black,
+        rgb(2, 2, 105),
+        black,
+        rgb(2, 2, 105),
+        black,
+        rgb(2, 2, 105),
+        black,
+        rgb(2, 2, 105),
+        black,
+        rgb(2, 2, 105)
+      )
+      border-box;
+  box-shadow: 0 0 25px 5px rgb(2, 2, 105);
+  padding-top: 70px;
+}
+.qualities {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  text-align: center;
+}
+.skills {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 200px;
+  height: auto;
+  padding: 10px;
+  border: 2px solid white;
+  gap: 15px;
+  border-radius: 30px;
+  text-transform: uppercase;
+  border: 3px solid transparent;
+  border-radius: 20px;
+  background: linear-gradient(black, black) padding-box,
+    linear-gradient(35deg, rgb(2, 2, 105), black, rgb(2, 2, 105)) border-box;
+  background-origin: border-box;
+  background-clip: padding-box, border-box;
+}
+.line {
+  width: 2px;
+  height: 10px;
+}
+.text {
+  margin-bottom: 10px;
+  font-size: 1.3rem;
+}
+.quality-text {
+  font-size: 1rem;
+}
+.color-line {
+  border: 5px solid transparent;
+  margin: 10px;
+  background: linear-gradient(
+      35deg,
+      rgb(2, 2, 105),
+      black,
+      rgb(2, 2, 105),
+      black,
+      rgb(2, 2, 105),
+      black,
+      rgb(2, 2, 105)
+    )
+    border-box;
+}
+.web-text {
+  padding: 10px;
+  font-size: 1.4rem;
+}
+@media (max-width: 780px) {
+  .skills-containers {
+    position: relative;
+    top: 20vh;
+    left: 5%;
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+  .skills-section {
+    position: absolute;
+    /* left: 15%; */
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 5px;
+  }
+  .skills-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 15px;
+    width: 100%;
+  }
+  .big-cricle {
+    width: 250px;
+    height: 230px;
+    position: relative;
+    /* left: 15%; */
+    top: 10px;
+    margin-top: 0;
+    padding-top: 30px;
+  }
+  .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    /* left: 15%; */
+    font-size: .6rem;
+    /* gap: 5px; */
+  }
+  .text {
+    font-size: 1rem;
+    position: relative;
+    top: 0;
+    margin-top: 0%;
+  }
+  .quality-text {
+    font-size: 0.8rem;
+  }
+  .web-text {
+    font-size: 1rem;
+  }
+  .line {
+    width: 2px;
+    height: 7px;
+  }
+  .text {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+ 
+}
+@media (max-width: 480px) {
+  .skills-containers {
+    position: relative;
+    top:120vh;
+    left: 0%;
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+  .skills-section {
+    position: absolute;
+    left: 15%;
+  }
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 23px;
+    width: 100%;
+  }
+  .big-cricle {
+    width: 250px;
+    height: 250px;
+    position: relative;
+    left: 15%;
+    top: 10px;
+    margin-top: 0;
+    padding-top: 30px;
+  }
+  .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 15%;
+  }
+  .text {
+    font-size: 1rem;
+    position: relative;
+    top: 0;
+    margin-top: 0%;
+  }
+  .quality-text {
+    font-size: 0.8rem;
+  }
+  .web-text {
+    font-size: 1.3rem;
+  }
+  .line {
+    width: 2px;
+    height: 7px;
+  }
+  .text {
+    margin-top: 0;
+    font-size: 1rem;
+  }
+  .skill-head {
+    font-size: 1.2rem;
+  }
+}
+@media (max-width: 380px) {
+  .skills-containers {
+    position: relative;
+    top: 35vh;
+    left: 0%;
+    width: 100%;
+    margin-left: 0;
+    padding: 0;
+  }
+  .skills-section {
+    position: absolute;
+    left: 8%;
+    top: 10%;
+  }
+  .skills-container {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    gap: 23px;
+    width: 120%;
+    font-size: .8rem;
+  }
+  .big-cricle {
+    width: 200px;
+    height: 200px;
+    position: relative;
+    left: 2%;
+    top: 10px;
+    margin-top: 0;
+    padding-top: 23px;
+  }
+  .skills {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    height: auto;
+    position: relative;
+    left: 5%;
+  }
+  .text {
+    font-size: 0.8rem;
+    position: relative;
+    top: 0;
+    margin-top: 0%;
+  }
+  .quality-text {
+    font-size: 0.6rem;
+  }
+  .web-text {
+    font-size: 0.8rem;
+  }
+  .line {
+    width: 2px;
+    height: 7px;
+  }
+
+  .skill-head {
+    font-size: 1.2rem;
+  }
+}
