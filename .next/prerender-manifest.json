@@ -1,12 +1,7 @@
 {
   "version": 4,
   "routes": {
-    "/favicon.ico": {
-      "initialHeaders": {
-        "cache-control": "public, max-age=0, must-revalidate",
-        "content-type": "image/x-icon",
-        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
-      },
+    "/_global-error": {
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -19,8 +14,9 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/favicon.ico",
-      "dataRoute": null,
+      "srcRoute": "/_global-error",
+      "dataRoute": "/_global-error.rsc",
+      "prefetchDataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -46,6 +42,7 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/_not-found",
       "dataRoute": "/_not-found.rsc",
+      "prefetchDataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -55,7 +52,12 @@
         "x-next-revalidate-tag-token"
       ]
     },
-    "/projects": {
+    "/favicon.ico": {
+      "initialHeaders": {
+        "cache-control": "public, max-age=0, must-revalidate",
+        "content-type": "image/x-icon",
+        "x-next-cache-tags": "_N_T_/layout,_N_T_/favicon.ico/layout,_N_T_/favicon.ico/route,_N_T_/favicon.ico"
+      },
       "experimentalBypassFor": [
         {
           "type": "header",
@@ -68,8 +70,9 @@
         }
       ],
       "initialRevalidateSeconds": false,
-      "srcRoute": "/projects",
-      "dataRoute": "/projects.rsc",
+      "srcRoute": "/favicon.ico",
+      "dataRoute": null,
+      "prefetchDataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -94,6 +97,32 @@
       "initialRevalidateSeconds": false,
       "srcRoute": "/",
       "dataRoute": "/index.rsc",
+      "prefetchDataRoute": null,
+      "allowHeader": [
+        "host",
+        "x-matched-path",
+        "x-prerender-revalidate",
+        "x-prerender-revalidate-if-generated",
+        "x-next-revalidated-tags",
+        "x-next-revalidate-tag-token"
+      ]
+    },
+    "/projects": {
+      "experimentalBypassFor": [
+        {
+          "type": "header",
+          "key": "next-action"
+        },
+        {
+          "type": "header",
+          "key": "content-type",
+          "value": "multipart/form-data;.*"
+        }
+      ],
+      "initialRevalidateSeconds": false,
+      "srcRoute": "/projects",
+      "dataRoute": "/projects.rsc",
+      "prefetchDataRoute": null,
       "allowHeader": [
         "host",
         "x-matched-path",
@@ -107,8 +136,8 @@
   "dynamicRoutes": {},
   "notFoundRoutes": [],
   "preview": {
-    "previewModeId": "9a5c2028412575900d5e094a3d180fd7",
-    "previewModeSigningKey": "fdc8dc251a652d0eb21649bc7d390d5ceb9dc4c1a7fb4f5222cac350010a2f48",
-    "previewModeEncryptionKey": "5ae2beb9a2241c989c1aaf9c35d2bc09cf13679de79ce89af3cddc3670ea0b2c"
+    "previewModeId": "90457b3c9523a03885406cf61c00e228",
+    "previewModeSigningKey": "09d8f4d1ffe9dfc1876a9ea5b973131b2f5f0ad8df212ff90b5e145abb79c3e1",
+    "previewModeEncryptionKey": "9bf52ddbfa1c60f36ac558172a2544f6912a88f0f642427bf82e450eb024f4a8"
   }
 }

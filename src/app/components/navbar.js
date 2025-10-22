@@ -1,3 +1,4 @@
+"use client"
 import Link from "next/link";
 import React from "react";
 import "../styleComponent/navbar.css";
@@ -9,7 +10,7 @@ const Navbar = () => {
       initial={{ y: -25, opacity: 0 }}
       animate={{ y: 0, opacity: 1 }}
       transition={{ duration: 0.8, ease: "easeOut" }}
-      className="navbar-section max-w-screen-lg mx-auto h-full px-4 py-3"
+      className="navbar-section "
     >
       <div className="navbar list-none">
         <Link className="img" href="#home">

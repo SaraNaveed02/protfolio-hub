@@ -106,23 +106,23 @@ const Htmlprojects = () => {
               <p>HTML • CSS •Non-Responsive</p>
             </div>
           </Link>
-          <Link
-            className="project-link"
-            href="https://saranaveed02.github.io/IMTIZA/"  target="_blank"
-          >
-            <Image
-              className="project-img"
-              src="/image/imtiaz.png"
-              alt="projects"
-              width={200}
-              height={300}
-              style={{ width: "200px", height: "300px", objectFit: "fill" }}
-            />
-            <div className="project-card">
-              <h3>imtiaz</h3>
-              <p>HTML • CSS • JavaScript • Responsive</p>
-            </div>
-          </Link>
+         <Link
+             target="_blank"
+              className="project-link"
+              href="https://kababjees2.netlify.app/"
+            >
+              <Image
+                className="project-img"
+                src="/image/kababjees.webp"
+                alt="projects"
+                width={200}
+                height={300}
+              />
+              <div className="project-card">
+                <h3>Kababjees Fried</h3>
+                <p>HTML • CSS • JavaScript • Responsive</p>
+              </div>
+            </Link>
           <Link
             className="project-link"
             href="https://star-marketing.netlify.app/"  target="_blank"
