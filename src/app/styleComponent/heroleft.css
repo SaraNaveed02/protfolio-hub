@@ -88,9 +88,9 @@
   }
   .left-side {
     position: fixed;
-    top: 0%;
+    top: 10%;
     width: 250px;
-    height: 100%;
+    height: fit-content;
   }
   .availability {
     padding: 4px 8px;
@@ -107,7 +107,7 @@
 @media (max-width: 480px) {
   .container {
     position: absolute;
-    top: 20%;
+    top: 10%;
     padding: 15px;
     display: flex;
     flex-direction: column;
@@ -161,5 +161,37 @@
     padding: 10px;
     gap: 5px;
   }
+}
+@media (max-width: 380px) {
+  .container {
+    position: absolute;
+    top: 10%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    gap: 10px;
+    left: 8%;
+    height: fit-content;
+  }
+   .main-image {
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+  .left-side {
+    position: relative;
+    background-color: rgb(8, 0, 65);
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
 }
 

@@ -1,0 +1,63 @@
+/* [project]/Desktop/new portfolio/my-portfolio/src/app/styleComponent/footer.css [app-client] (css) */
+.footer-container {
+  background-color: #000000ba;
+  border: none;
+  border-radius: 10px;
+  width: 70%;
+  height: 10vh;
+  margin: 20px;
+  position: relative;
+  top: 130vh;
+  left: 25%;
+}
+
+.sociallinks {
+  border: none;
+  border-radius: 10px;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 20px;
+  display: flex;
+}
+
+@media (max-width: 780px) {
+  .footer-container {
+    z-index: 100;
+    width: 55%;
+    height: 10vh;
+    padding-top: 10px;
+    position: relative;
+    top: 100vh;
+    left: 35%;
+  }
+}
+
+@media (max-width: 480px) {
+  .footer-container {
+    width: 350px;
+    height: 15vh;
+    padding-top: 10px;
+    position: relative;
+    top: 300vh;
+    left: 5%;
+  }
+}
+
+@media (max-width: 380px) {
+  .footer-container {
+    width: 250px;
+    height: 10vh;
+    padding-top: 10px;
+    position: relative;
+    top: 190vh;
+    left: 0%;
+  }
+
+  .sociallinks {
+    gap: 10px;
+    padding: 10px;
+  }
+}
+
+/*# sourceMappingURL=Desktop_new%20portfolio_my-portfolio_src_app_styleComponent_footer_css_bad6b30c._.single.css.map*/

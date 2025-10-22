@@ -1,0 +1,197 @@
+/* [project]/Desktop/new portfolio/my-portfolio/src/app/styleComponent/contact.css [app-client] (css) */
+.contact-containers {
+  z-index: 999;
+  color: #fff;
+  width: 60%;
+  height: 100%;
+  position: relative;
+  top: 130vh;
+  left: 30%;
+}
+
+.contact-form {
+  z-index: 1000;
+  background: #0000005d;
+  border: none;
+  border-radius: 20px;
+  flex-direction: column;
+  justify-content: flex-start;
+  padding: 20px;
+  display: flex;
+  position: relative;
+}
+
+.contact-head {
+  color: #fff;
+  text-transform: uppercase;
+  padding: 10px;
+  font-size: 2rem;
+}
+
+.contact-text {
+  text-transform: uppercase;
+  flex-direction: column;
+  gap: 10px;
+  padding: 30px;
+  display: flex;
+}
+
+.contact-form input, .contact-form textarea {
+  color: #fff;
+  background-color: #ffffff1a;
+  border: 1px solid #fff;
+  border-radius: 5px;
+  outline: none;
+  width: 100%;
+  padding: 10px;
+  font-size: 1rem;
+}
+
+.contact-form input:focus, .contact-form textarea:focus {
+  background-color: #fff3;
+  border-color: #020269;
+}
+
+.contact-btn {
+  text-transform: uppercase;
+  background-color: #020269;
+  border: none;
+  border-radius: 10px;
+  width: 100px;
+  margin-left: 20px;
+  padding: 10px;
+}
+
+@media (max-width: 780px) {
+  .contact-containers {
+    width: 650px;
+    position: relative;
+    top: 100vh;
+    left: 35%;
+  }
+
+  .contact-container {
+    width: 50%;
+    position: relative;
+    left: 5%;
+  }
+
+  .contact-form input, .contact-form textarea {
+    color: #fff;
+    background-color: #ffffff1a;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    padding: 7px;
+    font-size: .7rem;
+  }
+
+  .contact-head {
+    position: relative;
+    left: 5%;
+  }
+
+  .contact-text {
+    padding: 10px;
+  }
+
+  .contact-btn {
+    background-color: #020269;
+    border: none;
+    width: 80px;
+    margin: 10px;
+    padding: 7px;
+    font-size: .8rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .contact-containers {
+    width: 700px;
+    position: relative;
+    top: 290vh;
+    left: 0%;
+  }
+
+  .contact-container {
+    width: 50%;
+    position: relative;
+    left: 5%;
+  }
+
+  .contact-form input, .contact-form textarea {
+    color: #fff;
+    background-color: #ffffff1a;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    padding: 7px;
+    font-size: .7rem;
+  }
+
+  .contact-head {
+    font-size: 1.2rem;
+  }
+
+  .contact-text {
+    padding: 10px;
+  }
+
+  .contact-btn {
+    background-color: #020269;
+    border: none;
+    width: 80px;
+    margin: 10px;
+    padding: 7px;
+    font-size: .8rem;
+  }
+}
+
+@media (max-width: 380px) {
+  .contact-containers {
+    width: 400px;
+    position: relative;
+    top: 190vh;
+    left: 0%;
+  }
+
+  .contact-container {
+    width: 50%;
+    position: relative;
+    left: 8%;
+  }
+
+  .contact-form input, .contact-form textarea {
+    color: #fff;
+    background-color: #ffffff1a;
+    border: 1px solid #fff;
+    border-radius: 5px;
+    outline: none;
+    width: 100%;
+    padding: 7px;
+    font-size: .7rem;
+  }
+
+  .contact-head {
+    font-size: 1.2rem;
+    position: relative;
+    left: 8%;
+  }
+
+  .contact-text {
+    padding: 10px;
+  }
+
+  .contact-btn {
+    background-color: #020269;
+    border: none;
+    width: 80px;
+    margin: 10px;
+    padding: 7px;
+    font-size: .8rem;
+  }
+}
+
+/*# sourceMappingURL=Desktop_new%20portfolio_my-portfolio_src_app_styleComponent_contact_css_bad6b30c._.single.css.map*/

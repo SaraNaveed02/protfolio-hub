@@ -1,0 +1,82 @@
+/* [project]/Desktop/new portfolio/my-portfolio/src/app/styleComponent/navbar.css [app-client] (css) */
+.navbar-section {
+  opacity: .5;
+  z-index: 1000;
+  background-color: #24232380;
+  border: 1px solid #000;
+  border-radius: 50px;
+  width: fit-content;
+  height: fit-content;
+  position: fixed;
+  top: 20%;
+  right: 20px;
+  overflow: hidden;
+}
+
+.img {
+  object-fit: cover;
+  background-color: #fff;
+  border: 1px solid #000;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+
+.navbar {
+  z-index: 1000;
+  text-transform: uppercase;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  padding: 10px;
+  font-size: .9rem;
+  display: flex;
+}
+
+@media (max-width: 780px) {
+  .navbar-section {
+    position: fixed;
+    top: 20%;
+    right: 50px;
+  }
+}
+
+@media (max-width: 480px) {
+  .navbar-section {
+    position: fixed;
+    top: 20%;
+    right: 10px;
+  }
+
+  .img {
+    object-fit: cover;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  }
+}
+
+@media (max-width: 380px) {
+  .navbar-section {
+    position: fixed;
+    top: 25%;
+    right: 5%;
+  }
+
+  .img {
+    object-fit: cover;
+    background-color: #fff;
+    border: 1px solid #000;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    padding: 5px;
+  }
+}
+
+/*# sourceMappingURL=Desktop_new%20portfolio_my-portfolio_src_app_styleComponent_navbar_css_bad6b30c._.single.css.map*/

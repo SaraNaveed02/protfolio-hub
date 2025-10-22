@@ -9,6 +9,7 @@
   border: 1px solid black;
   border-radius: 50px;
   z-index: 1000;
+  overflow: hidden;
 }
 .img {
   height: 40px;
@@ -43,15 +44,24 @@
 @media (max-width:480px) {
   .navbar-section{
     position: fixed;
-    right: 100px;
+    right: 10px;
     top: 20%;
     
   }
+    .img {
+  height: 30px;
+  width: 30px;
+  object-fit: cover;
+  border: 1px solid black;
+  border-radius: 50%;
+  background-color: white;
+  padding: 5px;
+}
 }
 @media (max-width:380px) {
   .navbar-section{
     position:fixed;
-    right: 20%;
+    right: 5%;
     top: 25%;
   }
   .img {

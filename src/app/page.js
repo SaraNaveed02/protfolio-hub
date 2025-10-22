@@ -2,14 +2,13 @@ import AboutMe from "./components/about-me";
 import Contact from "./components/contact";
 import Footer from "./components/footer";
 import Hero from "./components/hero";
-import Navbar from "./components/navbar";
 import Skills from "./components/skills";
 import Projects from "./projects/projects";
 
 export default function Home() {
   return (
    <div className="">
-   <div className="fixed top-0 left-0 w-full h-full -z-10">
+   <div className="fixed top-0 left-0 w-full h-full -z-10 overflow-hidden">
           <video
             src="/videos/video 1.mp4"
             autoPlay

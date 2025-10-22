@@ -1,9 +1,9 @@
- .About-contianers {
-    position: relative;
-    top: 30vh;
-    left: 10%;
-    
-  }
+.About-contianers {
+  position: relative;
+  top: 30vh;
+  left: 18%;
+  width: fit-content;
+}
 .about-me-section {
   position: relative;
   top: 80vh;
@@ -45,25 +45,25 @@
 }
 @media (max-width: 780px) {
   .About-contianers {
-    position: absolute;
-    top: 170vh;
+    position: relative;
+    top: 10vh;
     left: 35%;
   }
   .about-me-section {
-    position: absolute;
+    position:relative;
     width: 300px;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    /* height: 100vh; */
+    top: 10vh;
   }
 
   .about-text {
-    width: 350px;
+    width: 300px;
     font-size: 0.8rem;
     background: rgba(0, 0, 0, 0.509);
-    width: 400px;
+    width: 300px;
     padding: 20px;
     left: 5%;
   }
@@ -74,7 +74,7 @@
     position: relative;
     top: 0%;
     left: 0%;
-    
+    height: fit-content;
   }
   .about-me-section {
     position: absolute;
@@ -83,12 +83,12 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    height: 100vh;
+    height: fit-content;
+    top: 80vh;
   }
   .about-head {
     width: 100%;
     font-size: 1.2rem;
-    
   }
   .about-text {
     width: 350px;
@@ -101,12 +101,14 @@
 @media (max-width: 380px) {
   .About-contianers {
     position: relative;
-    top: 0%;
+    top:50vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    left: 5%;
+    left: 0%;
+    height: fit-content;
+    bottom: 0;
   }
   .about-me-section {
     position: relative;
@@ -114,18 +116,17 @@
     flex-direction: column;
     justify-content: flex-start;
     align-items: flex-start;
-    /* height: 80vh; */
+    height: fit-content;
     top: 0%;
-    left:7%;
-
+    left: 7%;
   }
   .about-head {
     font-size: 1.2rem;
     left: 5%;
   }
   .about-text {
-    width: 250px;
-    font-size: 0.8rem;
+    width: 200px;
+    font-size: 0.7rem;
     background: rgba(0, 0, 0, 0.509);
   }
 }
