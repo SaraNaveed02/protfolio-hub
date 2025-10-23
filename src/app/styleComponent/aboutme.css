@@ -1,12 +1,12 @@
 .About-contianers {
   position: relative;
-  top: 50vh;
+  top: 0vh;
   left: 18%;
   width: fit-content;
 }
 .about-me-section {
   position: relative;
-  top: 80vh;
+  top: 40vh;
   left: 15%;
   height: 60vh;
   color: white;

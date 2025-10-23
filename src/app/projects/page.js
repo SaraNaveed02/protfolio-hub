@@ -23,11 +23,12 @@ const Htmlprojects = () => {
       <Heroleft/>
       <Navbar/>
       {/* html projects */}
-      <div className="">
-        <h2 className="head-tag text-amber-50 relative left-96 w-fit ">
+    <section className="section-pro">
+        <div className="">
+        <h2 className="head-tag text-amber-50 relative left-96 w-fit  ">
        <span className="circle"></span>     projects <span className="forntend-project ">(htlm and css)</span>
         </h2>
-        <div className="project-container inner-projects">
+        <div className=" inner-projects ">
           <Link className="project-link" href="https://my-kfc.netlify.app/"  target="_blank">
             <Image
               className="project-img"
@@ -144,10 +145,10 @@ const Htmlprojects = () => {
       </div>
       {/* javascript projects */}
       <div>
-        <h2 className="head-tag text-amber-50  relative left-96 w-fit mt-7">
+        <h2 className="head-tag text-amber-50  relative left-96 w-fit mt-7 ">
      <span className="circle"></span>     projects <span className="forntend-project ">(javascript small projects)</span>
         </h2>
-        <div className="project-container inner-projects">
+        <div className=" inner-projects ">
           <Link className="project-link" href="https://pass-generat.netlify.app/"  target="_blank">
             <Image
               className="project-img"
@@ -262,6 +263,7 @@ const Htmlprojects = () => {
           </Link>
         </div>
       </div>
+    </section>
     </div>
   );
 };

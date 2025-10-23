@@ -1,7 +1,7 @@
 .project-section {
   position: relative;
   height: 80vh;
-  top: 100vh;
+  top: 10vh;
   left: 35%;
   color: white;
   display: flex;
@@ -50,11 +50,12 @@
   width: fit-content;
   position: absolute;
   right: 10%;
-  top: 230vh;
+  /* top: 23vh; */
 }
 .show-more-btn {
   text-decoration: none;
   position: relative;
+  top: 20vh;
   z-index: 10;
   padding: 10px 20px;
   font-size: 0.8rem;
@@ -195,6 +196,10 @@
   position: relative;
   left: 30%;
   color: white;
+  gap: 30px;
+  max-width: fit-content;
+
+ 
 }
 @media (max-width: 900px) {
   .projects-containers {
@@ -238,6 +243,34 @@
     cursor: pointer;
     transition: all 0.4s ease;
   }
+  .head-tag{
+    position: relative;
+    left:25%;
+  }
+    .inner-projects {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  left: 30%;
+  color: white;
+  top:10vh;
+  bottom: 20vh;
+
+}
+   .section-pro{
+  position: relative;
+  left: 20vh;
+  margin-bottom:20px ;
+}
+.forntend-project {
+  font-size:.7rem;
+  opacity: 0.5;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
 }
 @media (max-width:700px) {
   .projects-containers {
@@ -300,6 +333,22 @@
     font-size: 0.6rem;
     text-transform: uppercase;
   }
+   .head-tag{
+    position: relative;
+    left: 30vh;
+  }
+   .section-pro{
+  position: relative;
+  top: 60vh;
+  margin-bottom:20px ;
+}
+.forntend-project {
+  font-size:.7rem;
+  opacity: 0.5;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
 }
 @media (max-width:480px) {
   .projects-containers {
@@ -360,8 +409,27 @@
     font-size: 0.6rem;
     text-transform: uppercase;
   }
+  .section-pro{
+  position: relative;
+  top: 10vh;
+  margin-bottom:20px ;
+}
+.forntend-project {
+  font-size:.7rem;
+  opacity: 0.5;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 5px;
+}
 }
 @media (max-width: 380px) {
+  .forntend-project {
+  font-size: .7rem;
+  opacity: 0.7;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
   .projects-containers {
     position: relative;
     margin-bottom: 0;
@@ -420,13 +488,18 @@
     font-size: 0.6rem;
     text-transform: uppercase;
   }
+  .section-pro{
+  position: relative;
+  top: 80vh;
+  margin-bottom:20px ;
+}
 }
 @media (max-width: 340px) {
     .projects-containers {
     position: relative;
     margin-bottom: 0;
     bottom: 0;
-    top: 0%;
+    top: 20%;
     height: fit-content;
     left: 10%;
 
@@ -456,4 +529,25 @@
     left: 10%;
     top: 130vh;
   }
+  .inner-projects {
+  display: grid;
+  grid-template-columns: repeat(1, 1fr);
+  justify-items: center;
+  align-items: center;
+  position: relative;
+  left: 30%;
+  color: white;
+}
+.forntend-project {
+  font-size:.7rem;
+  opacity: 0.5;
+  text-align: center;
+  align-items: center;
+  margin-bottom: 0px;
+}
+.section-pro{
+  position: relative;
+  top: 80vh;
+  margin-bottom:20px ;
+}
 }
