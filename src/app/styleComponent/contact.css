@@ -59,7 +59,7 @@
   margin-left: 20px;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 900px) {
   .contact-containers {
     position: relative;
     top: 100vh;
@@ -101,7 +101,45 @@
 @media (max-width:700px) {
   .contact-containers {
     position: relative;
-    top:200vh;
+    top:120vh;
+    left: 0%;
+    width: 700px;
+  }
+  .contact-container {
+    position: relative;
+    width: 50%;
+    left: 5%;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 7px;
+    font-size: 0.7rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+    width: 100%;
+  }
+  .contact-head {
+    font-size: 1.2rem;
+  }
+  .contact-text {
+    padding: 10px;
+  }
+  .contact-btn {
+    background-color: rgb(2, 2, 105);
+    padding: 7px;
+    border: none;
+    width: 80px;
+    font-size: 0.8rem;
+    margin: 10px;
+  }
+}
+@media (max-width:480px) {
+  .contact-containers {
+    position: relative;
+    top:340vh;
     left: 0%;
     width: 700px;
   }
@@ -139,9 +177,89 @@
 @media (max-width: 380px) {
   .contact-containers {
     position: relative;
-    top: 140vh;
+    top: 130vh;
     left: 0%;
     width: 400px;
+  }
+  .contact-container {
+    position: relative;
+    width: 50%;
+    left: 8%;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 7px;
+    font-size: 0.7rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+    width: 100%;
+  }
+  .contact-head {
+    font-size: 1.2rem;
+    position: relative;
+    left: 8%;
+  }
+  .contact-text {
+    padding: 10px;
+  }
+  .contact-btn {
+    background-color: rgb(2, 2, 105);
+    padding: 7px;
+    border: none;
+    width: 80px;
+    font-size: 0.8rem;
+    margin: 10px;
+  }
+}
+@media (max-width: 380px) {
+  .contact-containers {
+    position: relative;
+    top: 180vh;
+    left: 0%;
+    width: 500px;
+  }
+  .contact-container {
+    position: relative;
+    width: 50%;
+    left: 8%;
+  }
+  .contact-form input,
+  .contact-form textarea {
+    padding: 7px;
+    font-size: 0.7rem;
+    border: 1px solid white;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    outline: none;
+    width: 100%;
+  }
+  .contact-head {
+    font-size: 1.2rem;
+    position: relative;
+    left: 8%;
+  }
+  .contact-text {
+    padding: 10px;
+  }
+  .contact-btn {
+    background-color: rgb(2, 2, 105);
+    padding: 7px;
+    border: none;
+    width: 80px;
+    font-size: 0.8rem;
+    margin: 10px;
+  }
+}
+@media (max-width: 340px) {
+  .contact-containers {
+    position: relative;
+    top: 180vh;
+    left: 0%;
+    width: 500px;
   }
   .contact-container {
     position: relative;

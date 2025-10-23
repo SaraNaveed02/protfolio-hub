@@ -19,7 +19,7 @@
   border-radius: 10px;
 }
 
-@media (max-width: 780px) {
+@media (max-width: 900px) {
   .footer-container {
     position: relative;
     left: 35%;
@@ -34,18 +34,48 @@
   .footer-container {
     position: relative;
     left: 5%;
-    top: 200vh;
+    top: 120vh;
     width: 350px;
-    height: 15vh;
+    height: 10vh;
     padding-top: 10px;
   }
+}
+@media (max-width:480px) {
+  .footer-container {
+    position: relative;
+    left: 2%;
+    top: 340vh;
+    width: 380px;
+    height: 13vh;
+    padding-top: 10px;
+  } .sociallinks {
+  gap: 10px;
+  padding: 10px;
+  
+}
 }
 @media (max-width: 380px) {
   .footer-container {
     position: relative;
     left:0%;
-    top: 140vh;
+    top: 180vh;
     width: 250px;
+    height: 10vh;
+    padding-top: 10px;
+  }
+  .sociallinks {
+  gap: 10px;
+  padding: 10px;
+  
+}
+
+}
+@media (max-width: 320px) {
+  .footer-container {
+    position: relative;
+    left:0%;
+    top: 180vh;
+    width: 290px;
     height: 10vh;
     padding-top: 10px;
   }

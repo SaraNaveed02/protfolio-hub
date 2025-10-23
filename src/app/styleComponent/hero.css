@@ -1,11 +1,11 @@
 .hero-section {
   color: white;
   background-size: cover;
-  position: absolute;
+  position: relative;
   left: 20%;
-  top: auto;
+  top: 200px;
   width: 80%;
-  height: 100vh;
+  height: 100%;
   z-index: 10;
 }
 
@@ -36,20 +36,20 @@
 
 /* Tablets */
 
-@media (max-width: 780px) {
+@media (max-width: 900px) {
   .hero-section {
     color: white;
     background-size: cover;
-    position: absolute;
-    top: 0%;
-    height: 100vh;
+    position: relative;
+    top: 20vh;
+    height: 100%;
     width: 60%;
     z-index: 10;
   }
 
   .hero {
     position: relative;
-    left: 10rem;
+    left: 5rem;
   }
   .hero h1 {
     font-size: 1.5rem;
@@ -61,17 +61,18 @@
     width: 70%;
   }
 }
-@media (max-width:700px) {
-   .container {
-    position: relative; 
-    height: auto;       
+@media (max-width: 700px) {
+  .container {
+    position: relative;
+    height: 100%;
     padding: 20px;
     left: 0;
+    top: 40vh;
   }
 
   .hero-section {
-    position:relative;
-    top: 0;
+    position: relative;
+    top: 20%;
     left: 0%;
     width: 100%;
     display: flex;
@@ -82,11 +83,10 @@
 
   .hero {
     position: relative;
-    top:40vh;
+    top: 20vh;
     padding: 20px;
-    
-    left: 0%;
 
+    left: 0%;
   }
   .hero h1 {
     font-size: 1.2rem;
@@ -97,17 +97,64 @@
     font-size: 0.7rem;
     width: 80%;
   }
-   
+}
+@media (max-width: 480px) {
+ 
+
+  .hero-section {
+    position: relative;
+    height: 20vh;
+    top: 30vh;
+    left: 0%;
+    width: 70%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .hero {
+    position: absolute;
+    padding: 20px;
+    top: 60vh;
+    left: 0%;
+    bottom: 0;
+  }
+  .hero h1 {
+    font-size: 1.2rem;
+    margin-top: 5rem;
+  }
+
+  .hero p {
+    font-size: 0.7rem;
+    width: 80%;
+  }
 }
 
 @media (max-width: 380px) {
   .hero {
     line-height: normal;
-    position: relative;
-    top: 40vh;
+    position: absolute;
+    left: 10px;
+    top: 90vh;
     width: 70%;
-    left: 0%;
-   
+  }
+  .hero h1 {
+    font-size: 1rem;
+    margin-top: 5rem;
+  }
+  .hero p {
+    font-size: 0.6rem;
+    width: 100%;
+  }
+}
+@media (max-width: 320px) {
+  .hero {
+    line-height: normal;
+    position: absolute;
+    top: 90vh;
+    width: 70%;
+    left: 40px;
   }
   .hero h1 {
     font-size: 1rem;

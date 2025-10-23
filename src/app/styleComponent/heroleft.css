@@ -5,7 +5,7 @@
   padding: 20px;
   position: fixed;
   gap: 20px;
-  top: 0%;
+  top: 20;
   left: 0;
   z-index: 10;
   height: fit-content;
@@ -78,7 +78,7 @@
   text-transform: uppercase;
   font-size: 0.7rem;
 }
-@media (max-width: 780px) {
+@media (max-width: 900px) {
   .container {
     position: fixed;
     gap: 10px;
@@ -161,6 +161,64 @@
     gap: 5px;
   }
 }
+@media (max-width:480px) {
+  .container {
+    position:relative
+    ;
+    top: 10%;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    height: fit-content;
+  }
+  .main-image {
+    height: 200px;
+    width: 250px;
+    border: none;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+  .left-side {
+    position: relative;
+    background-color: rgb(8, 0, 65);
+    width: 250px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .h2 {
+    display: flex;
+    font-size: 0.6rem;
+    font-weight: lighter;
+    padding: 0;
+    margin-top: 5px;
+  }
+  .email {
+    padding: 10px;
+    font-size: 0.8rem;
+  }
+  .p {
+    text-transform: uppercase;
+    font-size: 0.5rem;
+  }
+  .orange-cricle {
+    height: 4px;
+    width: 4px;
+    margin-right: 0%;
+  }
+  .social-links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    gap: 5px;
+  }
+}
 @media (max-width: 380px) {
   .container {
     position: absolute;
@@ -173,6 +231,38 @@
     gap: 10px;
     left: 8%;
     height: fit-content;
+  }
+   .main-image {
+    height: 200px;
+    width: 200px;
+    border: none;
+    border-radius: 10px;
+    object-fit: contain;
+  }
+  .left-side {
+    position: relative;
+    background-color: rgb(8, 0, 65);
+    width: 200px;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+}
+@media (max-width: 320px) {
+  .container {
+    position: absolute;
+    top: 10px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items:flex-start;
+    gap: 10px;
+    height: fit-content;
+    left: 10vh;
   }
    .main-image {
     height: 200px;

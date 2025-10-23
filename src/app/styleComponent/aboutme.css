@@ -1,6 +1,6 @@
 .About-contianers {
   position: relative;
-  top: 30vh;
+  top: 50vh;
   left: 18%;
   width: fit-content;
 }
@@ -43,36 +43,71 @@
   font-size: 1rem;
   left: 15%;
 }
-@media (max-width: 780px) {
-  .About-contianers {
-    position: relative;
-    top: 10vh;
-    left: 35%;
-  }
-  .about-me-section {
-    position:relative;
-    width: 300px;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: flex-start;
-    top: 10vh;
-  }
+@media (max-width:900px) {
+ .About-contianers {
+  position: relative;
+  top: 0%;
+  left: 30%;
+  width: fit-content;
+}
+.about-me-section {
+  position: relative;
+  top: 0%;
+  left: 15%;
+  height: 20vh;
+  color: white;
+  width: fit-content;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
 
   .about-text {
-    width: 300px;
+    width: 400px;
     font-size: 0.8rem;
     background: rgba(0, 0, 0, 0.509);
     width: 300px;
     padding: 20px;
+    position: relative;
     left: 5%;
+    top: 0;
   }
 }
 
 @media (max-width: 700px) {
   .About-contianers {
     position: relative;
-    top: 0%;
+    top: 50px;
+    left: 30%;
+    height: fit-content;
+  }
+  .about-me-section {
+    position: absolute;
+    width: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: fit-content;
+    top: 10vh;
+  }
+  .about-head {
+    width: 100%;
+    font-size: 1.2rem;
+  }
+  .about-text {
+    width: 350px;
+    font-size: 0.8rem;
+    background: rgba(0, 0, 0, 0.509);
+    width: 300px;
+    padding: 20px;
+  }
+}
+@media (max-width: 480px) {
+  .About-contianers {
+    position: relative;
+    top: 50px;
     left: 0%;
     height: fit-content;
   }
@@ -84,7 +119,7 @@
     justify-content: flex-start;
     align-items: flex-start;
     height: fit-content;
-    top: 20vh;
+    top: 120vh;
   }
   .about-head {
     width: 100%;
@@ -101,7 +136,39 @@
 @media (max-width: 380px) {
   .About-contianers {
     position: relative;
-    top:25vh;
+    top:40vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    left: 0%;
+    height: fit-content;
+    bottom: 0;
+  }
+  .about-me-section {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-start;
+    height: fit-content;
+    top: 0%;
+    left: 7%;
+  }
+  .about-head {
+    font-size: 1.2rem;
+    left: 5%;
+  }
+  .about-text {
+    width: 200px;
+    font-size: 0.7rem;
+    background: rgba(0, 0, 0, 0.509);
+  }
+}
+@media (max-width: 320px) {
+  .About-contianers {
+    position: relative;
+    top:40vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;

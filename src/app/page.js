@@ -7,7 +7,7 @@ import Projects from "./projects/projects";
 
 export default function Home() {
   return (
-   <div className="">
+   <div className="absolute top-0 max-w-7xl mx-auto px-4">
    <div className="fixed top-0 left-0 w-full h-full -z-10 overflow-hidden">
           <video
             src="/videos/video 1.mp4"

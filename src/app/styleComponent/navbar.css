@@ -11,15 +11,7 @@
   z-index: 1000;
   overflow: hidden;
 }
-.img {
-  height: 40px;
-  width: 40px;
-  object-fit: cover;
-  border: 1px solid black;
-  border-radius: 50%;
-  background-color: white;
-  padding: 5px;
-}
+
 .navbar {
   display: flex;
   flex-direction: column;
@@ -30,48 +22,72 @@
   font-size: 0.9rem;
   text-transform: uppercase;
   padding: 10px;
-  gap: 20px;
+  gap: 40px;
+  height: 100%;
+}
+.nav-img {
+  background-color: white;
+  width: 30px;
+  height: 30px;
+  border: none;
+  border-radius: 50%;
+  object-fit: cover;
+  transition: all 0.3s ease;
+  padding: 5px;
 }
 
-@media (max-width:780px) {
-  .navbar-section{
+@media (max-width: 900px) {
+  .navbar-section {
     position: fixed;
     right: 50px;
     top: 20%;
-    
   }
 }
-@media (max-width:700px) {
-  .navbar-section{
+@media (max-width: 700px) {
+  .navbar-section {
     position: fixed;
     right: 10px;
     top: 20%;
-    
   }
-    .img {
-  height: 30px;
-  width: 30px;
-  object-fit: cover;
-  border: 1px solid black;
-  border-radius: 50%;
-  background-color: white;
-  padding: 5px;
+  .img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+  }
 }
+@media (max-width: 480px) {
+  .navbar-section {
+    position: fixed;
+    right: 10px;
+    top: 20%;
+  }
+  .img {
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+  }
 }
-@media (max-width:380px) {
-  .navbar-section{
-    position:fixed;
+@media (max-width: 380px) {
+  .navbar-section {
+    position: fixed;
     right: 5%;
     top: 25%;
   }
   .img {
-  height: 30px;
-  width: 30px;
-  object-fit: cover;
-  border: 1px solid black;
-  border-radius: 50%;
-  background-color: white;
-  padding: 5px;
+    height: 30px;
+    width: 30px;
+    object-fit: cover;
+    border: 1px solid black;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+  }
 }
-}
-
